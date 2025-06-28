@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="images/imgi_1_logo@2x.png" alt="logo">
+        <div>
+          <h1>Weather</h1>
+          <small>tagline goes here</small>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Live cameras</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container search-box">
+      <input type="text" id="searchInput" placeholder="Find your location...">
+      <button id="searchBtn">Find</button>
+    </div>
+  </section>
+
+  <section class="forecast">
+    <div class="container" id="weatherCards">
+      <!-- Dynamic weather cards here -->
+    </div>
+  </section>
+
+  <footer>
+    <div class="container subscribe">
+      <input type="email" placeholder="Enter your email...">
+      <button>Subscribe</button>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      <div class="social-icons">
+        <a href="#"><img src="images/facebook.jpeg" alt="fb"></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+        <a href="#"><img src="images/google.png" alt="g+" /></a>
+        <a href="#"><img src="images/pinterest.png" alt="pin"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
