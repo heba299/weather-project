@@ -2,7 +2,7 @@ let searchBtn = document.getElementById("searchBtn");
 let searchInput = document.getElementById("searchInput");
 let weatherCards = document.getElementById("weatherCards");
 
-let apiKey = "5aa3affedb3f4e6b8a6164250252806"; // ← استبدليه بمفتاحك الحقيقي
+let apiKey = "5aa3affedb3f4e6b8a6164250252806"; 
 
 function getDayName(dateString) {
   let date = new Date(dateString);
